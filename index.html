@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel=stylesheet href="styles.css"/>
+    <link rel="icon"
+            type="image/png"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQQsDUOyKwSztWh6il5KSbpvzk67u3lAE2CHzL2m89I40QVCWA9yXmAgtk7iHy5hRRT0&usqp=CAU">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="box">
+    <h1 id="top-page">Treasure Hunt!</h1>
+    <p class="text">Win the game by finding the treasure and clicking any square</p>
+
+    <img id="chest" src="https://freesvg.org/img/schatzkiste.png" height="300px">
+    <h2 id="howto">How to play the game</h2>
+  <p class="text">
+    <ul>
+      <li>Click one of the nine squares</li>
+      <li>If you find the treasure, you win!</li>
+      <li>If you find the bomb, you lose!</li>
+      <li>If you click a square and there is nothing, keep clicking to find the treasure</li>
+    </ul>
+  </p>
+  <br />
+<div id="game">
+    <table>
+      <tr>
+        <td class="gamecell" id=0 onclick="treasure(0)">?</td>
+        <td class="gamecell" id=1 onclick="treasure(1)">?</td>
+        <td class="gamecell" id=2 onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td class="gamecell" id=3 onclick="treasure(3)">?</td>
+        <td class="gamecell" id=4 onclick="treasure(4)">?</td>
+        <td class="gamecell" id=5 onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td class="gamecell" id=6 onclick="treasure(6)">?</td>
+        <td class="gamecell" id=7 onclick="treasure(7)">?</td>
+        <td class="gamecell" id=8 onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+    <table>
+        <tr>
+          <td class="rightcolumn">
+            <div id=lives>
+            <p>LIVES:</p>
+            <p id="clicks"></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="rightcolumn">
+            <button type="button" onClick="location.reload()">Restart Game</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="rightcolumn">
+            <p class="smalltext">1 v 1 the CPU</p>
+            <button type="button" onClick="computer()">Computer Chooses</button>
+          </td>
+        </tr>
+
+<br />
+</table>
+</div>
+
+  <p>
+  &copy Jennice and Phil
+<br />
+<a href="#top-page">Top of page</a>
+
+<a href="https://www.learnacademy.org/"target="_blank">LEARN academy</a>
+
+
+
+</p>
+</div>
+<footer>
+</footer>
+<script type="text/javascript" src="treasure.js"></script>
+
+  </body>
+</html>
