@@ -1,0 +1,121 @@
+h1{
+  color: #33CCFF;
+  font-family: 'Palette Mosaic', cursive;
+  padding: 20px;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  animation: whatever-we-want 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+h2{
+  color: #33CCFF;
+  font-family: 'Palette Mosaic', cursive;
+  padding: 20px;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  animation: whatever-we-want 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+h3{
+  color: #33CCFF;
+  font-family: 'Palette Mosaic', cursive;
+  padding: 16px;
+  text-shadow: 2px 2px #000000;
+  text-align: center;
+  animation: whatever-we-want 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+body {
+  background-image: url("https://i.imgur.com/1elJ3vS.jpg");
+  background-color: #cccccc;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+ul {
+  color: white;
+}
+
+.gamecell {
+  color: black;
+  font-family: 'Palette Mosaic', cursive;
+  font-size: 30px;
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.gamecell:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+.rightcolumn {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lives {
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clicks {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-family: 'Palette Mosaic', cursive;
+  font-size: 16px;
+
+}
+
+.smalltext {
+  color: #33CCFF;
+  font-family: 'Palette Mosaic', cursive;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.7);;
+  height: 100%;
+  width: 600px;
+  margin: auto;
+}
+
+#chest {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#warning {
+  color: red;
+}
+
+/*class call is . */
+
+/*id call is # */
